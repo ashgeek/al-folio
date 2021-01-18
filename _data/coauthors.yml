@@ -16,3 +16,23 @@
 
   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+"Saxena":
+    - firstname: ["Prateek", "P."]
+      url: https://www.comp.nus.edu.sg/~prateeks/
+
+"Shen":
+    - firstname: ["Shiqi"]
+      url: https://www.comp.nus.edu.sg/~shiqi04/
+
+"Nikolic":
+    - firstname: ["Ivica"]
+      url: https://sites.google.com/view/ivica-nikolic-sg/home
+
+"Sergey":
+    - firstname: ["Ilya"]
+      url: https://ilyasergey.net/
+
+"Hobor":
+    - firstname: ["Aquinas"]
+      url: https://www.comp.nus.edu.sg/~hobor/

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2020-10-25 11:34:00
 inline: true
 ---
 
-A simple inline announcement.
+Our paper got accepted to AsiaCCS'21. Here is the [link](https://arxiv.org/abs/2008.04516){:target="\_blank"}
