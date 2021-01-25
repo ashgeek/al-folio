@@ -87,12 +87,20 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
-    output: false
-    permalink: /projects/:path/
+  # projects:
+  #   output: true
+  #   permalink: /projects/:path/
+  media:
+    output: true
+    permalink: /media/:path/
 
 news_limit: 5
 
+cv:
+  output: true
+  path: /assets/pdf/
+  vlaues:
+  pdf: true
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
