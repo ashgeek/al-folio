@@ -58,3 +58,27 @@
     abstract = {Automatic patch generation can significantly reduce the window of exposure after a vulnerability is disclosed. Towards this goal, a long-standing problem has been that of patch localization: to find a program point at which a patch can be synthesized. We present PatchLoc, one of the first systems which automatically identifies such a location in a vulnerable binary, given just one exploit, with high accuracy. PatchLoc does not make any assumptions about the availability of source code, test suites, or specialized knowledge of the vulnerability. PatchLoc pinpoints valid patch locations in large real-world applications with high accuracy for about 88% of 43 CVEs we study. These results stem from a novel approach to automatically synthesizing a test-suite which enables probabilistically ranking and effectively differentiating between candidate program patch locations.},
     code = {https://github.com/patchloc/PatchLoc}
 }
+
+@inproceedings{bo2021synguar,
+    title={Synguar: Guaranteeing Generalization in Programming by Example},
+    author={Bo Wang and Teodora Baluta and Aashish Kolluri and Prateek Saxena},
+    year={2021},
+    publisher = {Association for Computing Machinery},
+    website = {},
+    booktitle = {The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE)},
+    series = {FSE 2021},
+    abstract = {Programming by Example (PBE) is a program synthesis paradigm in which the synthesizer creates a program that matches a set of given examples. In many applications of such synthesis (e.g., program repair or reverse engineering), we are to reconstruct a program that is close to a specific target program, not merely to produce some program that satisfies the examples seen. In such settings, we wish that the synthesized program generalizes well, i.e., has as few errors as possible on the unobserved examples capturing the target function behavior. In this paper, we propose the first framework (called SynGuar) for PBE synthesizers that guarantees achieving low generalization error with high probability. Our main contribution is a procedure to dynamically calculate how many additional examples suffice to theoretically guarantee generalization. We show how our techniques can be used in 2 well-known PBE synthesis approaches: PROSE and STUN (synthesis through unification), for common string-manipulation program benchmarks. We find that often a few hundred examples suffice to provably bound generalization error below 5% with high > 98%) probability on these benchmarks. Further, we confirm this empirically: SynGuar significantly improves the accuracy of existing synthesizers in generating the right target programs. But with fewer examples chosen arbitrarily, the same baseline synthesizers (without SynGuar) overfit and lose accuracy.},
+    code = {}
+}
+
+@inproceedings{aashish2021private,
+    title={Private Hierarchical Clustering in Federated Networks},
+    author={Aashish Kolluri and Teodora Baluta and Prateek Saxena},
+    year={2021},
+    eprint={2105.09057},
+    arxiv={2105.09057},
+    primaryClass={cs.CR},
+    booktitle = {Arxiv, Submitted to CCS'21},
+    abstract = {Analyzing structural properties of social networks, such as identifying their clusters or finding their most central nodes, has many applications. However, these applications are not supported by federated social networks that allow users to store their social links locally on their end devices. In the federated regime, users want access to personalized services while also keeping their social links private. In this paper, we take a step towards enabling analytics on federated networks with differential privacy guarantees about protecting the user links or contacts in the network. Specifically, we present the first work to compute hierarchical cluster trees using local differential privacy. Our algorithms for computing them are novel and come with theoretical bounds on the quality of the trees learned. The private hierarchical cluster trees enable a service provider to query the community structure around a user at various granularities without the users having to share their raw contacts with the provider. We demonstrate the utility of such queries by redesigning the state-of-the-art social recommendation algorithms for the federated setup. Our recommendation algorithms significantly outperform the baselines which do not use social contacts and are on par with the non-private algorithms that use contacts.},
+    code = {}
+}
